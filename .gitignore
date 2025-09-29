@@ -43,3 +43,14 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Flutter/Dart/Pub related
+
+.packages
+
+build/
+
+# IDEs
+
+
+# Others
+flutter_export_environment.sh

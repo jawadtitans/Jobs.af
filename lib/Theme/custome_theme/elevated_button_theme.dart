@@ -10,7 +10,11 @@ class elevatedButtonTheme {
   /* -- Light Theme -- */
   static final lightElevatedButtonTheme = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
-      elevation: 0,
+      tapTargetSize: MaterialTapTargetSize.padded,
+      overlayColor: Colors.grey.shade100,
+      splashFactory: InkRipple.splashFactory,
+      elevation: 0.0,
+      shadowColor: Colors.transparent,
       foregroundColor: TColors.light,
       backgroundColor: TColors.primary,
       disabledForegroundColor: TColors.darkGrey,

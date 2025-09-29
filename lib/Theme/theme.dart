@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
 
 import '../utils/constants/colors.dart';
 import 'custome_theme/BottomSheetTheme.dart';
@@ -16,13 +15,13 @@ class AppTheme {
 
   static ThemeData lightTheme = ThemeData(
     useMaterial3: true,
-    fontFamily: 'Poppins',
+    fontFamily: 'Estedad',
     disabledColor: Colors.grey,
     brightness: Brightness.light,
     primaryColor: TColors.primary,
     textTheme: textTheme.lightTextTheme,
     chipTheme: chipTheme.lightChipTheme,
-    scaffoldBackgroundColor: Colors.white,
+    scaffoldBackgroundColor: Color(0xFFeaf3fe),
     appBarTheme: appBarTheme.lightAppBarTheme,
     checkboxTheme: checkboxTheme.lightCheckboxTheme,
     bottomSheetTheme: BottomSheetTheme.lightBottomSheetTheme,
@@ -39,7 +38,7 @@ class AppTheme {
     primaryColor: TColors.primary,
     textTheme: textTheme.darkTextTheme,
     chipTheme: chipTheme.darkChipTheme,
-    scaffoldBackgroundColor: Colors.black,
+    scaffoldBackgroundColor: Color(0xFF000C19), // use image in here:
     appBarTheme: appBarTheme.darkAppBarTheme,
     checkboxTheme: checkboxTheme.darkCheckboxTheme,
     bottomSheetTheme: BottomSheetTheme.darkBottomSheetTheme,
