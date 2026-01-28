@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:iconly/iconly.dart';
 
 import '../screens/category/category.dart';
+
 import '../screens/home/home_page.dart';
 
 // Provider
@@ -16,10 +17,9 @@ class BottomNavProvider extends ChangeNotifier {
 
   List<Widget> get screens => [
     const JobHomePage(key: ValueKey('home_screen')),
-    const category_page(key: ValueKey('category_screen')),
-    const Center(
-      key: ValueKey('notify_screen'),
-      child: Text("notify Screen", style: TextStyle(fontSize: 18)),
+    const CategoryPage(key: ValueKey('category_screen')),
+    Center(
+      child: TextButton(onPressed: () {}, child: Text("notification page")),
     ),
     const Center(
       key: ValueKey('profile_screen'),

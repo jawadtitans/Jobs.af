@@ -20,46 +20,44 @@ class NavigationMenu extends StatelessWidget {
         return Scaffold(
           extendBody: true,
           // Floating Action Button (centered)
-          floatingActionButton: FloatingActionButton(
-            splashColor: Colors.grey.shade200.withOpacity(0.5),
-            shape: const CircleBorder(),
-            onPressed: () {
-              GoRouter.of(context).push('/search'); // replaces current route
-            },
-            backgroundColor: Colors.blue,
-            child: const Icon(
-              HugeIcons.strokeRoundedAiSearch,
-              color: Colors.white,
-              size: 30,
-            ),
-          ),
+          floatingActionButton: MediaQuery.of(context).viewInsets.bottom == 0
+              ? FloatingActionButton(
+                  splashColor: Colors.grey.shade200.withOpacity(0.5),
+                  shape: const CircleBorder(),
+                  onPressed: () {
+                    GoRouter.of(context).push('/search');
+                  },
+                  backgroundColor: Colors.blue,
+                  child: const Icon(
+                    HugeIcons.strokeRoundedAiSearch,
+                    color: Colors.white,
+                    size: 30,
+                  ),
+                )
+              : null,
           floatingActionButtonLocation:
               FloatingActionButtonLocation.centerDocked,
 
           // BottomAppBar
-          bottomNavigationBar: SafeArea(
-            child: BottomAppBar(
-              height: 75,
-              color: themeProvider.isdarkMode
-                  ? Color(0xFF0C1826)
-                  : Colors.white,
-              shape: const CircularNotchedRectangle(),
-              notchMargin: 8.0,
-              padding: EdgeInsets.only(top: 3),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  // Left side icons
-                  for (int i = 0; i < provider.names.length; i++)
-                    if (i < 2) // first 2 items before FAB
-                      _NavItem(index: i, provider: provider),
-
-                  const SizedBox(width: 60), // Space for FAB notch
-                  // Right side icons
-                  for (int i = 2; i < provider.names.length; i++)
+          bottomNavigationBar: BottomAppBar(
+            height: 75,
+            color: themeProvider.isdarkMode ? Color(0xFF0C1826) : Colors.white,
+            shape: const CircularNotchedRectangle(),
+            notchMargin: 8.0,
+            padding: EdgeInsets.only(top: 3),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                // Left side icons
+                for (int i = 0; i < provider.names.length; i++)
+                  if (i < 2) // first 2 items before FAB
                     _NavItem(index: i, provider: provider),
-                ],
-              ),
+
+                const SizedBox(width: 60), // Space for FAB notch
+                // Right side icons
+                for (int i = 2; i < provider.names.length; i++)
+                  _NavItem(index: i, provider: provider),
+              ],
             ),
           ),
 

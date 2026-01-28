@@ -64,13 +64,16 @@ flutter:
 
   assets:
     - assets/logo/
+    - assets/data_json/
     - assets/fonts/
+    - assets/icons/
     - assets/images/
     - assets/icons/brands/
     - assets/images/content/
     - assets/images/banners/
     - assets/images/reviews/
     - assets/images/products/
+    - assets/images/categories/
     - assets/icons/categories/
 
   fonts:

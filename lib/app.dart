@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Jobs.af',
       themeMode: themeProvider.isdarkMode ? ThemeMode.dark : ThemeMode.light,
       theme: AppTheme.lightTheme,
+
       darkTheme: AppTheme.darkTheme,
       debugShowCheckedModeBanner: false,
       routerConfig: router,

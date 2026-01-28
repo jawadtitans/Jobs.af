@@ -4,6 +4,7 @@ import 'package:get_storage/get_storage.dart';
 import 'package:provider/provider.dart';
 
 import 'Providers/BottomNavigationBars_providers.dart';
+import 'Providers/categoryProvider.dart';
 import 'Providers/introState.dart';
 import 'Providers/job_providers.dart';
 import 'Providers/theme_provider.dart';
@@ -21,6 +22,7 @@ Future<void> main() async {
       providers: [
         ChangeNotifierProvider(create: (_) => ThemeProvider()),
         ChangeNotifierProvider(create: (_) => OnboardingProvider()),
+        ChangeNotifierProvider(create: (_) => CategoryProvider()),
         ChangeNotifierProvider(create: (_) => JobProvider()),
         ChangeNotifierProvider(create: (_) => BottomNavProvider()),
       ],

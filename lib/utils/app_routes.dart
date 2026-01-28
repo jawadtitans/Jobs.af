@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:jobs_af/screens/home/sideBar/SideMenu.dart';
 import 'package:jobs_af/screens/search/search_with_category.dart';
-import 'package:jobs_af/screens/category/category_page.dart';
+
 import 'package:provider/provider.dart';
 
 import '../Providers/introState.dart';
@@ -60,15 +60,7 @@ final GoRouter router = GoRouter(
         );
       },
     ),
-    GoRoute(
-      path: '/category',
-      name: 'category',
-      pageBuilder: (context, state) => _buildTransitionPage(
-        state,
-        const CategoryPage(),
-        const Offset(1, 0), // slide from right
-      ),
-    ),
+
     GoRoute(
       path: '/side',
       name: 'sideMenu',
@@ -82,6 +74,7 @@ final GoRouter router = GoRouter(
       path: '/login',
       pageBuilder: (context, state) => _buildTransitionPage(
         state,
+
         const LoginPage(),
         const Offset(0, 1), // slide from bottom
       ),

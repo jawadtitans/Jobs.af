@@ -15,6 +15,7 @@ class AppTheme {
 
   static ThemeData lightTheme = ThemeData(
     useMaterial3: true,
+    dividerColor: Colors.transparent,
     fontFamily: 'Estedad',
     disabledColor: Colors.grey,
     brightness: Brightness.light,
@@ -33,6 +34,7 @@ class AppTheme {
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     fontFamily: 'Poppins',
+    dividerColor: Colors.transparent,
     disabledColor: Colors.grey,
     brightness: Brightness.dark,
     primaryColor: TColors.primary,

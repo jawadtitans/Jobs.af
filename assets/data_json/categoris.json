@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Development",
+    "services": [
+      {
+        "title": "Mobile Development",
+        "subtitle": "Working with Flutter and Dart for building your first mobile app",
+        "type": "mobile",
+        "colors": ["#50c878", "#3eb489"]
+      },
+      {
+        "title": "Web Development",
+        "subtitle": "Building beautiful websites with HTML, CSS, JavaScript, and frameworks",
+        "type": "web",
+        "colors": ["#003366", "#003366"]
+      },
+      {
+        "title": "Game Development",
+        "subtitle": "Creating games using Flutter, Unity, and Kotlin",
+        "type": "game",
+        "colors": ["#2C74E6", "#75A4EF"]
+      },
+      {
+        "title": "Database",
+        "subtitle": "Jobs related to database design, management, and optimization",
+        "type": "database",
+        "colors": ["#1e90ff", "#99badd"]
+      },
+      {
+        "title": "Software Testing",
+        "subtitle": "Positions in QA and software testing",
+        "type": "testing",
+        "colors": ["#EEB68C", "#E27D4E"]
+      },
+      {
+        "title": "AI Engineering",
+        "subtitle": "Jobs in AI, ML, and deep learning fields",
+        "type": "ai",
+        "colors": ["#228b22", "#32cd32"]
+      }
+    ]
+  },
+  {
+    "title": "Business",
+    "services": [
+      {
+        "title": "Finance",
+        "subtitle": "Jobs in finance, accounting, and investment",
+        "type": "finance",
+        "colors": ["#1e90ff", "#99badd"]
+      },
+      {
+        "title": "Entrepreneurship",
+        "subtitle": "Startups and business creation opportunities",
+        "type": "entrepreneurship",
+        "colors": ["#b0e0e6", "#4682b4"]
+      },
+      {
+        "title": "Marketing",
+        "subtitle": "Digital marketing, brand management, and promotions",
+        "type": "marketing",
+        "colors": ["#ff6347", "#ff4500"]
+      }
+    ]
+  },
+  {
+    "title": "Design",
+    "services": [
+      {
+        "title": "UI/UX Design",
+        "subtitle": "Designing user interfaces and user experiences",
+        "type": "uiux",
+        "colors": ["#ff69b4", "#ff1493"]
+      },
+      {
+        "title": "Graphic Design",
+        "subtitle": "Creating visual content for print and digital media",
+        "type": "graphic",
+        "colors": ["#ffa500", "#ff8c00"]
+      }
+    ]
+  },
+  {
+    "title": "IT & Networking",
+    "services": [
+      {
+        "title": "System Administration",
+        "subtitle": "Managing servers, networks, and IT infrastructure",
+        "type": "sysadmin",
+        "colors": ["#4682b4", "#5f9ea0"]
+      },
+      {
+        "title": "Network Engineering",
+        "subtitle": "Working with routers, switches, and network systems",
+        "type": "network",
+        "colors": ["#6a5acd", "#7b68ee"]
+      }
+    ]
+  },
+  {
+    "title": "Healthcare",
+    "services": [
+      {
+        "title": "Nursing",
+        "subtitle": "Positions in hospitals and healthcare centers",
+        "type": "nursing",
+        "colors": ["#32cd32", "#98fb98"]
+      },
+      {
+        "title": "Medical Research",
+        "subtitle": "Research positions in medical and pharmaceutical fields",
+        "type": "medical_research",
+        "colors": ["#20b2aa", "#66cdaa"]
+      }
+    ]
+  },
+  {
+    "title": "Education",
+    "services": [
+      {
+        "title": "Teaching",
+        "subtitle": "Jobs in schools, colleges, and universities",
+        "type": "teaching",
+        "colors": ["#ffb6c1", "#ff69b4"]
+      },
+      {
+        "title": "E-learning Development",
+        "subtitle": "Creating online courses and digital learning content",
+        "type": "elearning",
+        "colors": ["#00ced1", "#20b2aa"]
+      }
+    ]
+  },
+  {
+    "title": "Sales",
+    "services": [
+      {
+        "title": "Sales Executive",
+        "subtitle": "Direct selling and B2B sales positions",
+        "type": "sales_exec",
+        "colors": ["#ff4500", "#ff6347"]
+      },
+      {
+        "title": "Account Management",
+        "subtitle": "Managing client accounts and relationships",
+        "type": "account_mgmt",
+        "colors": ["#ffd700", "#ffa500"]
+      }
+    ]
+  },
+  {
+    "title": "Media & Communication",
+    "services": [
+      {
+        "title": "Content Creation",
+        "subtitle": "Creating content for social media and blogs",
+        "type": "content",
+        "colors": ["#ff69b4", "#ff1493"]
+      },
+      {
+        "title": "Journalism",
+        "subtitle": "Working in news, reporting, and media outlets",
+        "type": "journalism",
+        "colors": ["#1e90ff", "#00bfff"]
+      }
+    ]
+  },
+  {
+    "title": "Legal",
+    "services": [
+      {
+        "title": "Lawyer",
+        "subtitle": "Corporate, criminal, and civil law jobs",
+        "type": "lawyer",
+        "colors": ["#8b0000", "#b22222"]
+      },
+      {
+        "title": "Paralegal",
+        "subtitle": "Assist lawyers with research and legal documentation",
+        "type": "paralegal",
+        "colors": ["#a52a2a", "#cd5c5c"]
+      }
+    ]
+  },
+  {
+    "title": "Creative Arts",
+    "services": [
+      {
+        "title": "Photography",
+        "subtitle": "Professional photography and editing jobs",
+        "type": "photography",
+        "colors": ["#ff7f50", "#ff6347"]
+      },
+      {
+        "title": "Video Production",
+        "subtitle": "Film, video editing, and production jobs",
+        "type": "video",
+        "colors": ["#6a5acd", "#7b68ee"]
+      }
+    ]
+  }
+]
